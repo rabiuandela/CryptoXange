@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="@dimen/padding"
+        android:id="@+id/iv_country_flag"/>
+
+    <customfonts.MyTextView_Helvatica_Bold
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:layout_gravity="center"
+        android:id="@+id/tv_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+    <customfonts.MyTextView_Helvatica_Bold
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/padding"
+        android:id="@+id/tv_price"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+</LinearLayout>
